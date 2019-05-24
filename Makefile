@@ -18,14 +18,12 @@ INC = includes
 
 OBJ = $(SRCS:.c=.o)
 
-LIB = num.a
-
 FLAG = -Wall
 
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	gcc $(FLAG) $(LIB) -I$(INC) $(OBJ) -o $(NAME)
+	gcc $(FLAG) -I$(INC) $(OBJ) -o $(NAME)
 
 %.o: %.c
 		gcc $(FLAG) -I$(INC) -o $@ -c $<
