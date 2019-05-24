@@ -31,6 +31,8 @@ bool	parse_instruction(uint8_t *exp)
 		exit(0);
 	else if (strcmp("clear", (const char*)exp) == 0)
 		system("clear");
+	else if (strcmp("louis", (const char*)exp) == 0)
+		system("say Louis est un sale con");
 	else
 	{
 		printf("\"%s\"", exp);
