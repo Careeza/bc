@@ -28,13 +28,13 @@ char *hints(const char *buf, int *color, int *bold)
 	{
 		*color = 35;
 		*bold = 0;
-		return "uit";
+		return ("uit");
 	}
 	if (!strcasecmp(buf,"c"))
 	{
 		*color = 35;
 		*bold = 0;
-		return "lear";
+		return ("lear");
 	}
 	return NULL;
 }

@@ -19,6 +19,20 @@
 # include <string.h>
 # include <stdbool.h>
 
+typedef struct		s_entry
+{
+	char		*key;
+	uint64_t	hash;
+	uint64_t	offset;
+	bool		resolve;
+}					t_entry;
+
+typedef struct		s_hashtable
+{
+	size_t		size;
+	t_entry		bucket[];
+}					t_hashtable;
+
 void	*ft_memset(void *s, uint8_t c, size_t n);
 bool	ft_strncmp(uint8_t *str, uint8_t *exp, size_t len);
 void	ft_putstr(uint8_t *str, size_t len);

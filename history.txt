@@ -1,15 +1,3 @@
-2 + 2 * 5
-2 ^ 100000
--5 + 4
-5 + -4
-5 + -6
-6 / 2
-10 / 3
-9 / 3
-8 / 3
-8 % 3
-8 % 2
-8 % 1
 8 % 5
 clear
 omg
@@ -98,3 +86,15 @@ lol
 5 + 5
 louis$
 louis
+5 + 5
+louis
+dqsdqs
+sq
+dsq
+ds
+qd
+sqd
+qsd
+qs
+ez
+clear
